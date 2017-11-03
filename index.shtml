@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+<title>Spear :: Home</title>
+
+<link href="static_css/base.css?v=4" rel="stylesheet" type="text/css" media="screen, projection" />
+<link href="static_css/print.css?v=4" rel="stylesheet" type="text/css" media="print" />
+<!--[if IE 6]>
+	<style type="text/css">@import url(static_css/ie6.css);</style>
+<![endif]-->
+<!--START GOOGLE ANALYTICS CODE-->
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-4915102-5']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!--END GOOGLE ANALYTICS CODE-->
+
+<script type="text/javascript" language="javascript">
+<!-- 
+function open_new_window(url)
+{ 
+new_window = window.open(url,'demopopup','toolbar=0,location=0,menubar=0,resizable=1,dependent=0,status=0,scrollbars=1,width=1024,height=768')
+}
+// -->
+</script>
+<link rel="icon" 
+      type="image/png" 
+      href="/spear/img/common/favicon.png">
+
+<!--SPEAR Website Version: 4.6
+- Removed link to SPEAR demo on User Guides page
+- Amended URLS to LASSI-SPEAR on links & overview page from spear.land.vic.gov.au to maps.land.vic.gov.au
+- Added Google Analytics tracking links to user guides for future reporting purposes
+- Amended URLS on various pages to point to propertyandlandtitles or planning site instead of old dtpli or DCPD page (which mostly just redirected to the new sites)
+- Updated help pages, user guides, release notes
+- Updated phone number & address on some pages to new details
+- Amended references to Land Victoria to Land Use Victoria as appropriate
+- Updated Tech Note 4 & What's New page
+-->
+
+</head>
+
+<body>
+	
+    <!--start wrap-->
+	<div class="wrap">
+    
+    	<!--start header-->
+    	<div class="header">
+            	
+            <!--#include virtual="includes/global-search-home.html"-->
+
+            <!--#include virtual="includes/menu-default.html"-->
+            
+        </div>
+        <!--end header-->
+        
+        
+        <hr class="hide" />
+
+
+    	<!--start content-->
+    	<div class="content home">
+        	<div class="container">
+            
+            <!--[if IE 6]>
+<a href="index.shtml"><img src="img/common/logo1.png" style="position:relative; top:-90px; left:-1px;"></a>
+<![endif]-->
+            
+            	<!--start side-bar-->
+                <div class="column side-bar">
+                	<div id="login">
+                        <form method="post" action="/spear/login/Login.do">
+                            <fieldset>
+                                <legend>Registered users login to SPEAR here</legend>
+                                <!-- <p><label for="username">Username</label> <span><input type="text" name="username" id="username" maxlength="24" /></span></p>
+                                <p><label for="password">Password</label> <span><input type="password" name="password" id="password" maxlength="24" /></span></p> -->
+                            </fieldset>
+                            <p class="submit"><button type="submit" class="btn">Login</button> <!--<a href="" class="forgot-password">Forgotten your password?</a>--></p>
+                        </form>
+                    </div>
+                
+                	<div id="sub-menu">
+                    	<ul>
+							<li><a href="pages/about/contact-us/system-status.shtml" id="system-status">System status:<iframe sandbox="allow-scripts" width="60%" height="17px" frameborder="0" src="https://docs.google.com/spreadsheets/d/1_7x9lxpdas_WCsrPv-m78YyPRpRMiHViFt5tIa78tLk/pubhtml?gid=0&single=true&range=A1&widget=false&headers=false&chrome=false" scrolling="no" display="inline" style="position:relative; top:3px;"></iframe></a>
+							</li>
+							
+							<li><a href="/spear/publicSearch/Search.do" id="search-apps">Public search - current applications</a></li>
+<li><a href="pages/about/contact-us/land-victoria.shtml" id="processing-time">Current registration processing times</a></li>                	
+                            <li><a href="pages/about/news-and-events/whats-new-in-SPEAR.shtml" id="whats-new">What's new in SPEAR?</a></li>
+						</ul>
+                    </div>
+                <!-- -->			
+                </div>
+                <!--end side-bar-->
+                
+                <!--start main column-->
+            	<div class="column">
+                	<strong class="spear-allows-txt sml">SPEAR allows users to</strong>
+                    <strong class="spear-allows-txt med">process planning permits and subdivision applications online</strong>
+                    <p><a href="pages/about/what-is-spear/overview.shtml" class="btn learn-more">Learn more about spear</a> <span class="tell-us">or tell us who you are below...</span></p>
+                </div>
+                <!--end main column-->
+                        
+            	<div class="clearer">&nbsp;</div>
+                
+                <!--start actions-->
+                <div id="user-groups">
+                    <ul>
+                        <li id="ug-applicants"><a href="pages/applicants/about-applicants.shtml" class="hero" title="Are you an applicant?">Are you an applicant?</a>
+                        	<ul>
+								<li><a href="pages/applicants/about-applicants.shtml">Surveyors and planning applicants</a></li>
+								<li><a href="pages/lodging-parties/about-lodging.shtml">Lodging parties</a></li>
+                          </ul>
+                        </li>
+                        <li id="ug-responsible"><a href="pages/responsible-authorities/about.shtml" class="hero" title="Are you a responsible authority?">Are you a responsible authority?</a>
+                        	<ul>
+								<li><a href="pages/responsible-authorities/about.shtml">Councils</a></li>
+							</ul>
+                        </li>
+                        <li id="ug-referral"><a href="pages/referral-authorities/about-referral.shtml" class="hero" title="Are you a referral authority?">Are you a referral authority?</a>
+                        	<ul>
+                            	<li><a href="pages/referral-authorities/about-referral.shtml">Referral Authorities</a></li>
+							</ul>
+                        </li>
+                    </ul>
+                </div>
+                <!--end actions-->
+                
+            </div>
+        </div>
+        <!--end content-->
+        
+        
+        <hr class="hide" />
+
+		<!--#include file="includes/footer.html"-->
+    
+    </div>
+    <!--end wrap-->
+    
+	<script src="https://www.google.com/jsapi" type="text/javascript"></script>
+	<script type="text/javascript">
+        google.load("jquery", "1.4.2");
+    </script>
+    <script type="text/javascript" src="js/lib.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+			
+			if($('#sub-menu').length > 0) {
+				initMenu(0);
+			}
+			
+		});    
+    </script>
+
+</body>
+</html>
