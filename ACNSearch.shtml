@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Refresh" content="0;url=https://connectonline.asic.gov.au/RegistrySearch/faces/landing/SearchRegisters.jspx">
+
+<title>SPEAR :: Redirection</title>
+<link href="../static_css/base.css" rel="stylesheet" type="text/css" media="screen, projection" />
+<!--[if IE 6]>
+	<style type="text/css">@import url(static_css/ie6.css);</style>
+<![endif]-->
+<!--START GOOGLE ANALYTICS CODE-->
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-4915102-5']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!--END GOOGLE ANALYTICS CODE-->
+
+<link rel="icon" 
+      type="image/png" 
+      href="../img/common/favicon.png">
+
+</head>
+
+<body class="white"onLoad="setTimeout('delayer()', 0)">
+	
+    <!--start wrap-->
+	<div class="wrap">
+    
+  
+    	<!--start header-->
+    	<div class="header">
+
+            
+        </div>
+        <!--end header-->
+        
+        
+        <hr class="hide" />
+
+
+    	<!--start content-->
+    	<div class="content alt" style="background:url(../img/home/redirectbanner.PNG); position:relative; top:43px; height:96px">
+        
+        	<div class="container">
+            
+
+              <div class="clearer">&nbsp;</div>
+                
+            	
+                
+                <!--start main column-->
+           	  <div class="column" style="position:absolute; left:50%; margin-left:-479px">
+              <img src="../img/common/logo1.png" style="position:relative; top:-41px; ">
+               	<p><br/><br/></p><h1>SPEAR Redirection Notice</h1>
+           	    <p>You are now being redirected to the ASIC website.</p>
+           	    <p>If you are not redirected automatically please click on <a href="https://connectonline.asic.gov.au/RegistrySearch/faces/landing/SearchRegisters.jspx">https://connectonline.asic.gov.au/RegistrySearch/faces/landing/SearchRegisters.jspx</a></p>
+           	    	  </div>
+                <!--end main column-->
+                        
+           	  <div class="clearer">&nbsp;</div>
+                
+
+                
+            </div>
+        </div>
+        <!--end content-->
+        
+        
+        <hr class="hide" />
+
+    
+    </div>
+    <!--end wrap-->
+    
+	<script src="https://www.google.com/jsapi" type="text/javascript"></script>
+	<script type="text/javascript">
+        google.load("jquery", "1.4.2");
+    </script>
+    <script type="text/javascript" src="js/lib.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+			
+			if($('#sub-menu').length > 0) {
+				initMenu(0);
+			}
+			
+		});    
+    </script>
+
+<!--START GOOGLE ANALYTICS CODE-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4915102-4");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!--END GOOGLE ANALYTICS CODE--> 
+
+</body>
+</html>
