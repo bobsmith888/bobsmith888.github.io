@@ -89,9 +89,12 @@ function w3IncludeHTML() {
 <script>
 w3IncludeHTML();
 </script>
-	   <!--#include virtual="includes/global-search-home.html"-->
 
-            <!--#include virtual="includes/menu-default.html"-->
+           <div w3-include-html="includes/menu-default.html"></div>
+<script>
+w3IncludeHTML();
+</script>
+
             
         </div>
         <!--end header-->
