@@ -126,7 +126,7 @@ w3IncludeHTML();
                 
                 	<div id="sub-menu">
                     	<ul>
-							<li><a href="pages/about/contact-us/system-status.shtml" id="system-status">System status:<iframe sandbox="allow-scripts" width="60%" height="17px" frameborder="0" src="https://docs.google.com/spreadsheets/d/1_7x9lxpdas_WCsrPv-m78YyPRpRMiHViFt5tIa78tLk/pubhtml?gid=0&single=true&range=A1&widget=false&headers=false&chrome=false" scrolling="no" display="inline" style="position:relative; top:3px;"></iframe></a>
+							<li><a href="pages/about/contact-us/system-status.shtml" id="system-status">System status yo:<iframe sandbox="allow-scripts" width="60%" height="17px" frameborder="0" src="https://docs.google.com/spreadsheets/d/1_7x9lxpdas_WCsrPv-m78YyPRpRMiHViFt5tIa78tLk/pubhtml?gid=0&single=true&range=A1&widget=false&headers=false&chrome=false" scrolling="no" display="inline" style="position:relative; top:3px;"></iframe></a>
 							</li>
 							
 							<li><a href="/spear/publicSearch/Search.do" id="search-apps">Public search - current applications</a></li>
