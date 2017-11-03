@@ -1,0 +1,23 @@
+@charset "UTF-8";
+ /*logo*/
+#logo {
+ 	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='../img/common/logo.png', sizingMethod='scale');
+	position: relative;
+	cursor: pointer;
+ }
+ /*submenu*/
+  .content #sub-menu ul ul {
+ 	position: relative;
+	height: 1%;
+ }
+ .content #sub-menu ul li a {
+	height: 1%;
+ }
+ /*demo*/
+  .demo {
+ 	float: right;
+	width: 625px;
+	padding: 50px 57px 0 0;
+	left: -2px;
+ }

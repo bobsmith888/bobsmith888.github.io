@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/*----------------
+ TYPOGRAPHY
+ ----------------*/
+
+ /*GLOBAL
+ --------*/
+ body {
+ 	font-family: arial, sans-serif;
+	font-size: 0.80em;
+	text-align: center;
+ }
+ .container {
+ 	text-align: left;
+ }
+ a {
+ 	text-decoration: none;
+ }
+ 
+ /*HEADER
+ --------*/
+ /*GLOBAL TOP - Login and Search*/
+ /*Byline*/
+ p#global-byline {
+ 	font-size: 0.92em;
+ }
+ 
+ 
+ /*CONTENT
+ --------*/
+ .content h1 {
+ 	font-size: 3.33em;
+	margin: 0 0 0.95em 0;
+ }
+ .content h2 {
+ 	font-weight: bold;
+	font-size: 1.33em; 
+	line-height: 1.4em;
+	margin: 0 0 0.62em 0;
+ }
+ .content p,
+ .content ul,
+ .content ol {
+ 	line-height: 1.5em;
+	margin: 0 0 1.7em 0;
+ }
+ .content ul {
+ 	margin-left: 15px;
+ }
+ .content ol {
+ 	margin-left: 25px;
+ }
+ 
+ /*HOME TITLE*/
+ .home strong.med {
+	font-size: 3.83em;
+	letter-spacing: -0.01em;
+	line-height: 0.92em !important;
+	margin: 0 0 0.5em 0;
+ }
+ .home strong.sml {
+ 	font-size: 1.67em;
+	margin: 0 0 0.2em 0;
+ }
+ .home strong.spear-allows-txt {
+	display: block;
+ }
+ 
+ /*LIST*/
+
+ 
+ 
+ .content .item .description h2,
+ .content .item .description p,
+ .content .item .description ul {
+	margin-left: 80px;
+ }
+ 
+  .content .item .description ul {
+	padding-left: 20px;
+ }
+ 
+ .content .item p {
+ 	margin: 0;
+ }
+ .newsletter .description {
+    background: none repeat scroll 0 0 transparent;
+    margin-left: -80px;
+}
+
+ .content .item .description .download .description {
+		margin-left: 0; 
+ }
+ 
+ .content .item .download .description {
+	 width:490px;
+ }
+ .content .item .description .complete .description {
+		margin-left: 0; 
+ }
+ 
+ .content .item .complete .description {
+	 width:490px;
+ }
+ .item strong.num {
+	font-size: 2.67em;
+	letter-spacing: -0.05em;
+	font-weight: normal;
+ }
+ 
+ .download p {
+	 width: 400px;
+ }
+ .complete p {
+	 width: 400px;
+ }
+ 
+ 
+ /*FAQs*/
+ .content ol#questions {
+ 	margin: 0 0 2.2em 0!important;
+	display: block;
+ }
+ .content ol#questions li {
+	list-style-position: inside;
+ }
+ .content ol#questions li a {
+ 	font-weight: bold;
+ }
+  .fact strong {
+	font-size: 2.67em;
+	letter-spacing: -0.05em;
+	font-weight: normal;
+ }
+ .content .fact h2 {
+ 	margin-top: 15px;
+	margin-left: 50px;
+ }
+ .content .fact p {
+ 	margin: 0 0 0 50px;
+ }
+ 
+ 
+ /*BREADCRUMB*/
+ .content #global-breadcrumb ul {
+ 	line-height: normal;
+	margin: 0;
+ }
+ 
+ /*SUBMENU*/
+ .content #sub-menu ul {
+ 	line-height: normal;
+	margin: 0;
+ }
+ 
+ /*TABLES*/
+ table caption {
+ 	font-weight: bold;
+	font-size: 1.33em;
+ }
+ table th {
+ 	font-weight: bold;
+ }
+ table td.marker {
+ 	font-weight: bold;
+	font-size: 1.8em;
+	text-align: center;
+ }
+ 
+ /*LOGIN FORM - Password Link*/
+ #login form a.forgot-password {
+ 	font-size: 0.92em;
+ }
+ 
+ /*FOOTER
+ -------*/
+ .footer {
+ 	font-size: 0.92em;
+ }
+ .footer a {
+ 	text-decoration: none;
+ }
+ .footer #global-quicklinks span {
+ 	font-size: 1.3em;
+ }
+

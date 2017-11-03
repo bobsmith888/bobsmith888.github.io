@@ -1,0 +1,393 @@
+@charset "UTF-8";
+/*----------------
+ COLOUR
+ ----------------*/
+ 
+ /*GLOBAL
+ --------*/
+ body {
+ 	background-color: #f2f3f1;
+	color: #a1a1a1;
+ }
+ 
+ 
+ /*HEADER
+ --------*/
+ /*GLOBAL TOP - Login and Search*/
+ #global-top {
+ 	background-image: url(../img/common/default.png);
+	background-color: #eaeaea;
+ }
+ #global-byline { 
+ 	color: #4f4f4f;
+ }
+ /*Login Button*/
+ .header a.login {
+ 	background-image: url(../img/common/common.png);
+ }
+ #global-login form {
+	background-image: url(../img/common/default.png);
+	display:none; /* Depricated Login Drop Down */
+ }
+ #global-login form label {
+	color: #FFF;
+ }
+ #global-login form fieldset span {
+	background-image: url(../img/common/default.png)
+ }
+ /*Submit*/
+ #global-login form button {
+	background-image: url(../img/common/default.png);
+ }
+ /*Password Link*/
+ #global-login form a.forgot-password {
+	color: #FFF;
+ }  
+ 
+ /*Global Search*/
+ /*Search Field*/
+ form#global-search fieldset span {
+ 	background-image: url(../img/common/default.png);
+ }
+ form#global-search fieldset input,
+ form#global-search fieldset input:focus {
+ 	border: 0;
+	outline: none;
+ }
+ /*Submit*/ 
+ form#global-search button {
+ 	background-image: url(../img/common/default.png);
+ }
+ /*GLOBAL MENU - Logo & Main Menu*/
+ .global-menu {
+ 	background-image: url(../img/common/default.png);
+ }
+ /*Logo*/
+ #logo {
+ 	background-image: url(../img/common/logo.png);
+ }
+ /*Main Menu*/
+ ul#main-menu li a {
+ 	background-image: url(../img/common/default.png);
+ }
+ /*Applicants*/
+ #applicants.global-menu {
+ 	background-image: url(../img/common/hdr-applicantsv2.png) !important;
+ }
+ #applicants.global-menu ul#main-menu li a {
+ 	background-image: url(../img/common/hdr-applicantsv2.png);
+ }
+ /*Responsible Authorities*/
+ #responsible.global-menu {
+ 	background-image: url(../img/common/hdr-responsiblev2.png) !important;
+ }
+ #responsible.global-menu ul#main-menu li a {
+ 	background-image: url(../img/common/hdr-responsiblev2.png);
+ }
+ /*Referral Authorities*/
+ #referral.global-menu {
+ 	background-image: url(../img/common/hdr-referralv2.png) !important;
+ }
+ #referral.global-menu ul#main-menu li a {
+ 	background-image: url(../img/common/hdr-referralv2.png);
+ }
+ /*Lodging Parties*/
+ #lodging.global-menu {
+ 	background-image: url(../img/common/hdr-lodgingv2.png) !important;
+ }
+ #lodging.global-menu ul#main-menu li a {
+ 	background-image: url(../img/common/hdr-lodgingv2.png);
+ } 
+ /*Public & Other Users*/
+ #public.global-menu {
+ 	background-image: url(../img/common/hdr-publicv2.png) !important;
+ }
+ #public.global-menu ul#main-menu li a {
+ 	background-image: url(../img/common/hdr-publicv2.png);
+ }
+ /*ePlan*/
+ #eplan.global-menu {
+ 	background-image: url(../img/common/hdr-eplanv2.png) !important;
+ }
+ #eplan.global-menu ul#main-menu li a {
+ 	background-image: url(../img/common/hdr-eplanv2.png);
+ } 
+ /*LASSI*/
+ #lassi.global-menu {
+ 	background-image: url(../img/common/hdr-lassiv2.png) !important;
+ }
+ #lassi.global-menu ul#main-menu li a {
+ 	background-image: url(../img/common/hdr-lassiv2.png);
+ } 
+ 
+ 
+ /*CONTENT
+ --------*/
+ .content {
+ 	background-color: #FFF;
+	color: #3A3A3A;
+ }
+ 
+ /*TYPOGRAPHY*/
+ .content h1 {
+ 	color: #208ed1;
+ }
+ .content h2 {
+ 	color: #636363;
+ }
+ .content a {
+ 	color: #208ed1;
+	text-decoration:underline;
+ }
+ .content a:hover {
+ 	color: #b0b1b0;
+	text-decoration:underline;
+ }
+ span.tell-us {
+	color: #6a6a6a;
+ }
+ 
+ /*HOME TITLE*/
+ .home strong.med {
+	color: #209cd6;
+ }
+ .home strong.sml {
+ 	color: #6a6a6a;
+ }
+ 
+ /*COMMON*/
+ a.download {
+	background-image: url(../img/common/common.png);
+ }
+ a.complete {
+	background-image: url(../img/common/common.png);
+ }
+ a.top {
+	background-image: url(../img/common/common.png);
+ }
+ 
+ /*LEARN MORE BUTTON*/
+ a.learn-more {
+	background-image: url(../img/common/common.png);
+ }
+ 
+ /*BREADCRUMB*/
+ #global-breadcrumb {
+ 	background-image: url(../img/common/bc-br.gif);
+ }
+ #global-breadcrumb .bc-bl {
+ 	background-image: url(../img/common/bc-bl.gif);
+ }
+ #global-breadcrumb .bc-tr {
+ 	background-image: url(../img/common/bc-tr.gif);
+ }
+ .content #global-breadcrumb ul {
+ 	background-image: url(../img/common/bc-tl.gif);
+ }
+ .content #global-breadcrumb ul li a {
+	background-image: url(../img/common/bc-divider.gif);
+	color: #7f7f7f;
+ }
+ .content #global-breadcrumb ul li a:hover {
+ 	color: #389bd4;
+ }
+ .content #global-breadcrumb ul li.home a {
+	background-image: url(../img/common/ico-home.gif);
+ }
+ .content #global-breadcrumb ul li.home a:hover {
+	background-image: url(../img/common/ico-home-active.gif);
+ }
+ 
+ /*SUBMENU*/
+ .content #sub-menu {
+	background-image: url(../img/common/dot-h.gif);
+ }
+ .content #sub-menu ul li {
+	background-image: url(../img/common/dot-h.gif);
+ }
+ .content #sub-menu ul li a {
+	background-color: #FFF;
+	color: #7f7f7f;
+	text-decoration:none;
+ }
+ .content #sub-menu ul li a:hover,
+ .content #sub-menu ul li a.active {
+	background-color: #f3f2f2;
+	color: #389bd4;
+ }
+ .alt #sub-menu ul li a,
+ .alt #sub-menu ul li a:hover,
+ .alt #sub-menu ul li a.active {
+	background-image: url(../img/common/common.png);
+	color: #7f7f7f;
+ }
+ .content #sub-menu ul li ul li a:hover,
+ .content #sub-menu ul li ul li a.active,
+ .content #sub-menu ul li ul li a.active:hover {
+	color: #389bd4;
+ }
+ /*Home Sub Menu*/
+ .home #sub-menu ul li a {
+ 	background-image: url(../img/common/common.png);
+ } 
+ 
+ 
+ /*TABLES*/
+ table {
+ 	color: #7f7f7f;
+ }
+ table caption {
+	color: #636363;
+	background-color: #f3f2f2;
+ }
+ table th {
+	color: #208ed1;
+ }
+ table tr.title td {
+	color: #208ed1;
+ }
+ table td {
+	 background-image: url(../img/common/dot-h.gif);
+ }
+ table td.marker {
+	color: #208ed1;
+ } 
+ 
+ /*LIST*/
+ .item {
+	background-image: url(../img/common/dot-h.gif);
+ }
+ .item strong.num {
+ 	background-image: url(../img/common/bg-marker.png);	
+	color: #208ed1;
+ }
+ /*LIST2*/
+ .item2 {
+	background: none;
+ }
+ .item2 strong.num {
+ 	background-image: url(../img/common/bg-marker.png);	
+	color: #208ed1;
+ }
+ /*Newsletters*/
+ .newsletter .description {
+ 	background: none;	
+ }
+ 
+ /*FAQs*/
+ .fact strong {
+ 	color: #208ed1;
+ }
+ .content ol#questions li {
+	background-image: url(../img/common/dot-h.gif);
+	color: #208ed1;
+ }
+ .content ol#questions li a {
+	color: #636363;
+ }
+ 
+ /*USER GROUPS*/
+ #user-groups ul li a.hero {
+ 	background-image: url(../img/common/actions.jpg);
+ }
+ /*Home User Groups*/
+ .home #user-groups ul,
+ .home #user-groups ul li a.hero {
+	background-image: url(../img/home/user-groups.jpg); 	
+ }
+ .home #user-groups ul li a {
+ 	color: #FFF;
+ }
+ /*Bullets*/
+ .home #user-groups ul li#ug-applicants ul li {
+ 	list-style-image: url(../img/home/blt-applicant.gif);
+ }
+ .home #user-groups ul li#ug-responsible ul li {
+ 	list-style-image: url(../img/home/blt-responsible.gif);
+ }
+ .home #user-groups ul li#ug-referral ul li {
+ 	list-style-image: url(../img/home/blt-referral.gif);
+ } 
+ /*Underlines*/
+ .home #user-groups ul li#ug-applicants ul li a {
+ 	background-image: url(../img/home/dot-applicant-a.gif);
+ }
+ .home #user-groups ul li#ug-applicants ul li a:hover {
+ 	background-image: url(../img/home/dot-applicant-b.gif);
+ }
+ .home #user-groups ul li#ug-responsible ul li a {
+ 	background-image: url(../img/home/dot-responsible-a.gif);
+ }
+ .home #user-groups ul li#ug-responsible ul li a:hover {
+ 	background-image: url(../img/home/dot-responsible-b.gif);
+ }
+ .home #user-groups ul li#ug-referral ul li a {
+ 	background-image: url(../img/home/dot-refer-a.gif);
+ }
+ .home #user-groups ul li#ug-referral ul li a:hover {
+ 	background-image: url(../img/home/dot-refer-b.gif);
+ }
+ 
+ 
+ 
+ /*REGISTER ACTION*/
+ a#register {
+ 	background-image: url(../img/common/common.png);	
+ }
+ 
+ /*LOGIN FORM*/
+ #login {
+	background-image: url(../img/common/dot-h.gif);
+ }
+ #login form {
+	background-image: url(../img/common/common.png);
+ }
+ #login form fieldset span {
+	background-image: url(../img/common/default.png);
+ }
+ /*Submit*/
+ #login form button {
+	background-image: url(../img/common/common.png);
+ }
+ /*Password Link*/
+ #login form a.forgot-password {
+	color: #7f7f7f;
+ }
+ #login form a.forgot-password:hover {
+ 	color: #4e4e4e;
+ }
+ 
+ /*FOOTER
+ -------*/
+ /*QUICKLINKS*/
+ div#global-quicklinks {
+	 background-image: url(../img/common/bg-footer.gif);
+	 color: #767676;
+ }
+ div#global-quicklinks a {
+ 	color: #90908f;
+	background-image: url(../img/common/arrow-quicklinks.gif);
+ }
+ div#global-quicklinks a:hover {
+ 	color: #4e4e4e;
+	background-image: url(../img/common/arrow-quicklinks-hover.gif);
+ }
+ #global-copyright {
+ 	color: #b0b1b0;
+ }
+ #global-copyright ul li a {
+ 	background-image: url(../img/common/arrow-footer.gif);
+	color: #b0b1b0;
+ }
+ #global-copyright ul li a:hover {
+ 	color: #888;
+ }
+ #copyright a {
+	color: #b0b1b0;
+	text-decoration: none;
+ }
+ #copyright a:hover {
+	color: #888888;
+	text-decoration: none;
+ }
+
