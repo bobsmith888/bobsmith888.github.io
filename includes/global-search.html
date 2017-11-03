@@ -1,0 +1,40 @@
+<!--start global-top-->
+<!--[if lte IE 6]>
+<link href="/spear/static_css/ie6.css" rel="stylesheet" type="text/css">
+ <![endif]-->
+<script type="text/javascript">
+//Domain name here
+var domainname="www.spear.land.vic.gov.au/spear"
+function Googlesitesearch(curobj){
+curobj.q.value=curobj.sterm.value+" "+"site:"+domainname
+}
+</script>
+
+<div id="global-top">
+    <div class="container">
+    
+        <p id="global-byline">Surveying and Planning through Electronic Applications and Referrals</p>
+        
+        <div id="global-login">
+            <a href="/spear/login/Login.do" class="btn login">Login</a>
+               <form method="post" action="">
+                <fieldset>
+                    <legend>Log in to SPEAR</legend>
+                    <p><label for="username">Username</label> <span><input type="text" name="username" id="username" maxlength="24" autocomplete="off"/></span></p>
+                    <p><label for="password">Password</label> <span><input type="password" name="password" id="password" maxlength="24" autocomplete="off"/></span></p>
+                </fieldset> 
+                <p class="submit"><button type="submit" class="btn">Login</button> <a href="" class="forgot-password">Forgotten your password?</a></p>
+            </form>
+        </div>
+        
+        <form id="global-search" method="get" action="//www.google.com.au/search" onSubmit="Googlesitesearch(this)"> <input name="q" type="hidden"/>
+            <fieldset>
+                <p><label for="search">Search</label> <span><input type="text" name="sterm" id="sterm" maxlength="28" /></span></p>
+            </fieldset>
+            <p class="submit"><button type="submit" class="btn" value="Search">Submit</button></p>
+        </form>
+        
+        <div class="clearer">&nbsp;</div>
+    </div>
+</div>
+<!--end global-top-->
