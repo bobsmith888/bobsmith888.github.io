@@ -154,7 +154,7 @@ w3IncludeHTML();
                         <li id="ug-applicants"><a href="pages/applicants/about-applicants.shtml" class="hero" title="Are you an applicant?">Are you an applicant?</a>
                         	<ul>
 								<li><a href="pages/applicants/about-applicants.shtml">Surveyors and planning applicants</a></li>
-								<li><a href="pages/lodging-parties/about-lodging.shtml">Lodging parties</a></li>
+								<li><a href="pages/lodging-parties/about-lodging.shtml">Lodging Party</a></li>
                           </ul>
                         </li>
                         <li id="ug-responsible"><a href="pages/responsible-authorities/about.shtml" class="hero" title="Are you a responsible authority?">Are you a responsible authority?</a>
